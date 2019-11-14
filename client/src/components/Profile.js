@@ -21,8 +21,8 @@ export default function Profile(props) {
   return (
     <div>
         <div className="container1">
-            <Link to={`/notGoing`}>Not Going: </Link>
-            <Link to={`/going`}>Going:</Link>
+            <Link to={`/notGoing`}>Not Going: {notGoing.length}</Link>
+            <Link to={`/going`}>Going: {going.length}</Link>
         </div>
         <div className="container">
             <div className="picture">
