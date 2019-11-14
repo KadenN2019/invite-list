@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+hr{
+  width: 318px;
+  border: 1px solid #bbb;
+}
+
+.container1{
+  display: flex;
+  width: 320px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.pagebuttons{
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background: #ddd;
+  width: 320px;
+  margin: auto;
+  border: 2px solid #bbb;
+  margin-top: 2px;
+  height: 420px;
+}
+
+.picture{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.thumbnail{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background: #aaa;
+  border: 2px solid #aaa;
+}
+
+.detail-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+}
+
+.detail-line{
+  display: flex;
+  margin: 5px;
+}
+
+.details{
+  padding-right: 5px;
+}
+
+
+.buttons{
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  margin: 0px 0px 10px
+}
+
+.noGo{
+  width: 50px;
+  font-size: 17px;
+  background: rgb(242, 58, 48);
+  cursor: pointer;
+  outline: none;
+}
+.Yeppers{
+  width: 50px;
+  font-size: 17px;
+  background: rgb(67, 165, 71);
+  cursor: pointer;
+  outline: none;
+}
