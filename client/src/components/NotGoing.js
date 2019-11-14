@@ -13,6 +13,7 @@ export default function NotGoing(props) {
   return (
     <div>
         <div className="container1">
+            <Link to={`/`}>HOME</Link>
             <Link to={`/notGoing`}>Not Going: {notGoing.length}</Link>
             <Link to={`/going`}>Going: {going.length}</Link>
         </div>

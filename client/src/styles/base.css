@@ -22,6 +22,11 @@ code {
     monospace;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 hr{
   width: 318px;
   border: 1px solid #bbb;

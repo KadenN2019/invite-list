@@ -13,12 +13,13 @@ export default function Going(props) {
   return (
     <div>
         <div className="container1">
+            <Link to={`/`}>HOME</Link>
             <Link to={`/notGoing`}>Not Going: {notGoing.length}</Link>
             <Link to={`/going`}>Going: {going.length}</Link>
         </div>
         {going.map((users)=>{
             return(
-                <div className="container">
+            <div className="container">
             <div className="picture">
                 <img className="thumbnail" src={users.picture.large} alt=""/>
             </div>
